@@ -40,7 +40,7 @@ Create two virtual machines: one running Windows 10 and the other running Window
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-By 
+RDP back into DC-1 and install Active Directory Domain Services through service manager. Create a new fores "mydomain.com" and promote DC-1 as the domain controller.
 </p>
 <br />
 
@@ -48,7 +48,7 @@ By
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In DC-1 create 3 organizational units named _EMPLOYEE, _ADMIN, and _CLIENT through Windows Administrative Tools and Active Directory Users and Computers (ADUC). Then create a new user "jane doe" and promoter the user to th Domain Admins security group. 
 </p>
 
 <p>
