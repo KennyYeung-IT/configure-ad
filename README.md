@@ -55,7 +55,8 @@ In DC-1 create 3 organizational units named _EMPLOYEE, _ADMIN, and _CLIENT throu
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To join the Windows 10 virtual machine to the domain, RDP into the system and go to its settings. In the 'Rename this PC (Advanced)' section, change the domain to mydomain.com.
+
 </p>
 <br />
 
@@ -63,7 +64,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Although Remote Desktop is accessible to the admin Jane Doe (jane_admin), domain users need to be granted access manually. To do this, go to Settings, navigate to Remote Desktop, and add domain users to allow remote access to the virtual machine.
+
 </p>
 <br />
 
@@ -71,7 +73,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+"Now that the Windows 10 virtual machine allows domain users, we can create new accounts. Log in as the admin 'jane_admin' on DC-1, then open PowerShell ISE as an administrator. Create a new file, paste the script from  thishttps://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 , and execute it." Once completed, check ADUC to ensure new users were created in the _EMPLOYEE OU.
+
 </p>
 <br />
 
@@ -79,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lastly, attempt to log in to the Window 10 virtual machine using one of the users generated previously to ensure the users account work. 
 </p>
 <br />
 
