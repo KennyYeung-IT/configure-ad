@@ -62,7 +62,7 @@ RDP back into DC-1 and install Active Directory Domain Services through service 
 
 
 ![image](https://github.com/user-attachments/assets/dda0ee16-a3d4-479d-a6ba-d8046b346e45)
-![image](https://github.com/user-attachments/assets/28892f2a-4026-46bf-9242-5f259bac6fcd)
+![image](https://github.com/user-attachments/assets/c9d85629-99b1-494f-9a6c-e49d36cf8b28)
 
 <p>
 In DC-1 create 3 organizational units named _EMPLOYEE, _ADMIN, and _CLIENT through Windows Administrative Tools and Active Directory Users and Computers (ADUC). Then create a new user "jane doe" and promoter the user to th Domain Admins security group. 
