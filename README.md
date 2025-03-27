@@ -97,9 +97,8 @@ Although Remote Desktop is accessible to the admin Jane Doe (jane_admin), domain
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/22f8dff6-5aad-42dc-9a52-948745d2bdc9)
+
 <p>
 Lastly, attempt to log in to the Window 10 virtual machine using one of the users generated previously to ensure the users account work. 
 </p>
